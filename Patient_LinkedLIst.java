@@ -1,0 +1,44 @@
+package Nisarga;
+
+import java.util.LinkedList;
+
+public class Patient_LinkedLIst {
+
+
+public static void main(String[] args)
+{
+LinkedList<String>patients=new LinkedList<>();
+ 
+patients.add("Sai");
+patients.add(" Krishna");
+patients.add(" Deva");
+ 
+patients.addFirst("Emergency-Suresh");
+patients.addLast("Pooja");
+ 
+System.out.println("Patient List:" + patients);
+ 
+ 
+System.out.println("First Patient :" + patients.getFirst());
+ 
+ 
+System.out.println("First Patient :" + patients.getLast());
+ 
+System.out.println("Is Pooja present? " +patients.contains("Pooja"));
+System.out.println("position of pooja patient is" + patients.indexOf("Pooja"));
+ 
+System.out.println("Treated Patient: " + patients.removeFirst());
+patients.remove("Pooja");
+ 
+System.out.println("Total Remaining Patients: " + patients.size());
+ 
+System.out.println("Updated Patient List :");
+ 
+for(String patient : patients)
+{
+	System.out.println(patient);
+ 
+}
+}
+}
+ 
