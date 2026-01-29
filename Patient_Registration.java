@@ -62,12 +62,12 @@ public class Patient_Registration {
 
 		    public static void main(String[] args) {
 
-		        addPatient(1, "Ravi");
-		        addPatient(2, "Anita");
+		        addPatient(01, "Nisarga");
+		        addPatient(02, "Nivedita");
 
 		        getPatient(1);
 		        
-		        updatePatient(2, "Anita Sharma");
+		        updatePatient(2, "Niveditha Sharma");
 
 		        listPatients();
 		        
